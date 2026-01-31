@@ -1,12 +1,15 @@
 body {
     background-color: antiquewhite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     }
 
 .same_sized_image {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    flex: 0 0 25%;
+    /* flex: 0 0 25%; */
 }
 
 .photogrid_1 {
@@ -16,7 +19,7 @@ body {
     column-gap: 20px;
 }
 
-p{
+.photos p{
     width: 200px;
     height: 200px;
     color: #6f4e37;
@@ -27,6 +30,7 @@ h1{
     text-align: center;
     color: #6f4e37;
     margin-left: 160px;
+    font-family: "Caveat", cursive;
 }
 
 .sidenav {
@@ -42,7 +46,7 @@ h1{
     }
 
 .sidenav a {
-    padding: 6px 8px 6px 16px;
+    padding: 10px 8px 10px 16px;
     text-decoration: none;
     font-size: 25px;
     color: antiquewhite;
@@ -54,3 +58,14 @@ h1{
     padding: 0px 10px;
 }
 
+footer{
+    text-align: center;
+    padding: 3px;
+    color: antiquewhite;
+    background-color: #6f4e37;
+    margin-top: auto;
+    margin-left: 160px;
+    font-family: "Caveat", cursive;
+    font-weight: 200;
+    font-size: 16;
+}
