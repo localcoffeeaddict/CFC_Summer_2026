@@ -65,7 +65,7 @@ footer{
     color: antiquewhite;
     background-color: #6f4e37;
     margin-top: auto;
-    margin-left: 160px;
+    /* margin-left: 160px; */
     font-family: "Caveat", cursive;
     font-weight: 200;
     font-size: 16;
