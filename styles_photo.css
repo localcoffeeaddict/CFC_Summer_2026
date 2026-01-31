@@ -1,0 +1,26 @@
+body {
+    background-color: antiquewhite;
+    .same_sized_image {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .photogrid_1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    p{
+        width: 200px;
+        height: 200px;
+        color: #6f4e37;
+    }
+
+    h1{
+        font-size: 400%;
+        text-align: center;
+        color: #6f4e37;
+    }
+}
